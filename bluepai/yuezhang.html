@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/yuezhang.css">
+</head>
+
+<body>
+    <!-- 主导航 start -->
+    <div class="header">
+        <div class="header-in">
+            <!-- logo标签页 -->
+            <div class="logo">
+                <img src="./images/logo_03.png" alt="">
+                <div class="flag-word">
+                    <strong>蓝莓派</strong>
+                    <h3>和音乐一起分享时光</h3>
+                </div>
+            </div>
+            <!-- 主导航栏 -->
+            <div class="main-nav">
+                <ul>
+                    <li><a href="./index.html" class="navs">首页</a></li>
+                    <li><a href="./yuezhang.html" class="navs on">乐章</a></li>
+                    <li><span class="ts-num">12</span><a href="./tingshuo.html" class="navs">听说</a></li>
+                    <li><a href="./liaoliao.html" class="navs">聊聊</a></li>
+                    <li><a href="./chengpin.html" class="navs">诚品</a></li>
+                    <li><a href="./lanmeijiang.html" class="navs">蓝莓酱</a></li>
+                </ul>
+            </div>
+            <!-- 搜索框和登陆注册 -->
+            <div class="login">
+                <div class="search">
+                    <form>
+                        <input type="search" id="search">
+                        <label for="search" id="search-button"></label>
+                    </form>
+                </div>
+                <div class="login-register">
+                    <a href="./login.html" class="login">登录</a>
+                    <a href="./login.html" class="register">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主导航 end -->
+
+    <!-- 内容主容器 start -->
+    <div class="main">
+        <!-- 乐章歌曲 start -->
+        <div class="song-introduce">
+            <div class="song-info">
+                <div class="song-title"><a href="#">默-那英[《何以笙箫默》电影插曲]</a></div>
+                <div class="play-num"><span>43万</span>播放</div>
+            </div>
+            <div class="song-details">
+                <img src="./images/naying.png" alt="">
+                <div class="song-intro-content">介绍：
+                    “终于毕业啦”，带着留恋，或带着探索的兴奋，大家要踏入下一站旅程。人生其实就是不断的选择，今天要离开学习的大站，但是下一站“社会大学”充满了各种可能性。。。我们祝福大家，下一站风景会更美丽!!
+                </div>
+            </div>
+            <div class="song-control">
+                <div class="playutil">
+                    <audio src="./res/mo.mp3" id="audio"></audio>
+                    <div class="control">
+                        <div class="buttons">
+                            <a href="#" id="playBtn">
+                                <img id="playImg" src="./images/play-btn_03.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <p id="passTime">00:00</p>
+                    <div class="progress-bar">
+                        <div class="prodress-bar-pass"></div>
+                    </div>
+                    <p id="totalTime">00:00</p>
+                </div>
+            </div>
+        </div>
+        <!-- 乐章歌曲 start -->
+        <!-- 文章 start -->
+        <div class="common-details">
+            <div class="artical">
+                <div class="artical-title">
+                    <h3 class="artical-title-h3"></h3>
+                    <div class="artical-title-info">
+                        <div class="eye-wechat">
+                            <span class="eye-num"></span>
+                            <span class="wechat-num"></span>
+                        </div>
+                        <div class="current-time">
+                            创建时间：
+                            <span class="current-data">2030/02/30</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="artical-content">
+                    <div class="blog-details">
+                        <div class="blog-details-content">
+                            <!-- 文章内容本身 -->
+                        </div>
+                        <div class="blog-datails-labels">
+                            <!-- <span class="label">旅游</span> -->
+                        </div>
+                        <div class="blog-detalis-end">
+                            <img src="./images/endIcon_03.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 相关阅读 -->
+                    <div class="related_read">
+                        <div class="related_read_title"><a href="#">相关阅读</a></div>
+                        <div class="related_read_content">
+                            <!-- <div class="related_read_content_show">
+                                <a href="#">
+                                    <img src="./images/related-read_03.png" alt="" class="reated_read_pic">
+                                    <p class="reated_read_text">这是内容</p>
+                                </a>
+                            </div> -->
+                        </div>
+                        <div class="related_read_share">
+                            <div class="share_left">
+                                <div class="share_left_icons">
+                                    <a href="#"><img src="./images/shareIcon_03.png" alt=""></a>
+                                    <a href="#"><img src="./images/shareIcon_05.png" alt=""></a>
+                                    <a href="#"><img src="./images/shareIcon_07.png" alt=""></a>
+                                    <a href="#"><img src="./images/shareIcon_09.png" alt=""></a>
+                                </div>
+                                <span>喜欢就分享出去吧！</span>
+                            </div>
+                            <div class="share_right">
+                                <a href="#">分享长微博</a>
+                                <a href="#">
+                                    <img src="./images/zan-big_03.png" alt="">
+                                    赞<span class="blog_zan_num">45</span>
+                                </a>
+                                <a href="#">
+                                    <img src="./images/favorites_03.png" alt="">收藏
+                                </a>
+                                <a href="#" class="report">举报</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 相关阅读end -->
+                    <!-- 评论 start -->
+                    <div class="blog_comment">
+                        <div class="who_zan">
+                            <h4>赞过的人</h4>
+                            <div class="who_zan_list">
+                                <div class="who_zan_people">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="who_zan_people_name">许西</span>
+                                </div>
+                                <div class="who_zan_people">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="who_zan_people_name">许西</span>
+                                </div>
+                                <div class="who_zan_people">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="who_zan_people_name">许西</span>
+                                </div>
+                                <div class="who_zan_people">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="who_zan_people_name">许西</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme_pic">
+                            <a href="#"><img src="./images/comment-pic_03.png" alt=""></a>
+                        </div>
+                        <div>
+                            <div>评论框</div>
+                            <div class="ts_popcommon">
+                                <span class="ts_popcommon_icon">
+                                    <img src="./images/song-pic_03.png" alt="">
+                                </span>
+                                <div class="ts_commont_content">
+                                    <b>小夏同学</b>
+                                    <i>2030-12-12 16:30:30</i>
+                                    <p>内地流行双人组合</p>
+                                    <span class="ts_card_foot_icon">
+                                        <b class="ts_card_foot_icon_1"></b>
+                                        <i>34</i>
+                                        <b class="ts_card_icon_2"></b>
+                                        <i>50</i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ts_popcommon">
+                                <span class="ts_popcommon_icon">
+                                    <img src="./images/song-pic_03.png" alt="">
+                                </span>
+                                <div class="ts_commont_content">
+                                    <b>小夏同学</b>
+                                    <i>2030-12-12 16:30:30</i>
+                                    <p>内地流行双人组合</p>
+                                    <span class="ts_card_foot_icon">
+                                        <b class="ts_card_foot_icon_1"></b>
+                                        <i>34</i>
+                                        <b class="ts_card_icon_2"></b>
+                                        <i>50</i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ts_popcommon">
+                                <span class="ts_popcommon_icon">
+                                    <img src="./images/song-pic_03.png" alt="">
+                                </span>
+                                <div class="ts_commont_content">
+                                    <b>小夏同学</b>
+                                    <i>2030-12-12 16:30:30</i>
+                                    <p>内地流行双人组合</p>
+                                    <span class="ts_card_foot_icon">
+                                        <b class="ts_card_foot_icon_1"></b>
+                                        <i>34</i>
+                                        <b class="ts_card_icon_2"></b>
+                                        <i>50</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 评论 end -->
+                </div>
+            </div>
+            <!-- 侧边栏 start -->
+            <div class="artical_right">
+                <div class="msg_center aside_box">
+                    <div class="logo_msg_up">
+                        <div class="blueberrypai">
+                            <img src="./images/aside-logo_03.png" alt="">
+                            <h1>蓝莓派</h1>
+                        </div>
+                        <div class="square_btn">
+                            <p class="tiezi_num">20</p>
+                            <p class="tiezi_name">评论</p>
+                        </div>
+                        <div class="square_btn">
+                            <p class="tiezi_num">120</p>
+                            <p class="tiezi_name">帖子</p>
+                        </div>
+                        <div class="square_btn">
+                            <p class="tiezi_num">220</p>
+                            <p class="tiezi_name">关注</p>
+                        </div>
+                    </div>
+                    <div class="msg_lower">
+                        <div class="circle_btn add"><a href="#"></a></div>
+                        <div class="circle_btn msg"><a href="#"></a></div>
+                    </div>
+                </div>
+                <div class="other_blog aside_box">
+                    <h3 class="other_blog_title">作者的其他内容</h3>
+                    <ul class="blog_list">
+                        <li><a href="#">你适可而止全身而退</a></li>
+                        <li><a href="#">你适可而止全身而退</a></li>
+                        <li><a href="#">你适可而止全身而退</a></li>
+                    </ul>
+                </div>
+                <div class="hot_recommend aside_box">
+                    <h3 class="other_blog_title">热门推荐</h3>
+                    <ul class="blog_list">
+                        <li><a href="#">你适可而止全身而退，你适可而止全身而退，你适可而止全身而退</a></li>
+                        <li><a href="#">你适可而止全身而退</a></li>
+                        <li><a href="#">你适可而止全身而退</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 侧边栏 end -->
+        </div>
+        <!-- 文章 end -->
+
+    </div>
+    <!-- 内容主容器 end -->
+
+    <!-- 底部结构 start -->
+    <div class="footer">
+        <div class="blin-content">
+            <div class="link-left">
+                <span>友情链接</span>
+                <p class="link-left-content">
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                    <a href="#">知乎</a>
+                    <a href="#">数字尾巴</a>
+                    <a href="#">豆瓣</a>
+                    <a href="#">环球旅游</a>
+                </p>
+            </div>
+            <div class="link-right">
+                <div class="weibo">
+                    <img src="./images/footer-ewm1.jpg" alt="">
+                    <span>微博二维码</span>
+                </div>
+                <div class="weixin">
+                    <img src="./images/footer-ewm2.jpg" alt="">
+                    <span>微信二维码</span>
+                </div>
+                <div class="connect">
+                    <p>电话：99999999</p>
+                    <p><i>邮编：101000</i><i>传真：99999999</i></p>
+                    <p>邮箱：info@hewicdhvcd.com</p>
+                    <p>地址：北京市东城区广渠门内大安街化北里1号长保大厦13层</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bot-content">
+                <span><a href="#">关于我们</a></span>
+                <span><a href="#">联系我们</a></span>
+                <span><a href="#">加入我们</a></span>
+                <span><a href="#">团队成员</a></span>
+                <span><a href="#">商务合作</a></span>
+                <p class="bot-foot">
+                    <em>蓝莓派版权所有</em>
+                    <em>京ICP备123456789号</em>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部结构 end -->
+    <script src="./js/./jquery-3.6.0.min.js"></script>
+    <script src="./js/yuezhang.js"></script>
+</body>
+
+</html>

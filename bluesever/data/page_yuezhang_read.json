@@ -1,0 +1,24 @@
+{
+    "readList":[
+        {
+            "id":1001,
+            "title":"人散后一勾新月天如水，一抹清风拂晓空",
+            "img":"http://localhost/bluesever/images/related-read_03.png"
+        },
+        {
+            "id":1002,
+            "title":"但是我们不是那种没有爱的人",
+            "img":"http://localhost/bluesever/images/related-read_03.png"
+        },
+        {
+            "id":1003,
+            "title":"我们不是那种没有爱的人",
+            "img":"http://localhost/bluesever/images/related-read_03.png"
+        },
+        {
+            "id":1004,
+            "title":"生活的美好，就是你的爱",
+            "img":"http://localhost/bluesever/images/related-read_03.png"
+        }
+    ]
+}

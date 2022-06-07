@@ -1,0 +1,105 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.cp_header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+}
+
+.cp_header .nav {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.nav li {
+    float: left;
+    border-top: 4px solid transparent;
+}
+
+.nav li a {
+    display: block;
+    height: 66px;
+    padding: 0 30px;
+    line-height: 66px;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav li.on {
+    border-top: 4px solid #ff6700;
+    color: #ff6700;
+}
+
+.cp_goods_list {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.cp_goods_list .list_item {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+
+.cp_goods_list .list_item .left {
+    float: left;
+    width: 600px;
+    height: 310px;
+}
+
+.cp_goods_list .list_item .item_text_right {
+    float: right;
+    width: 600px;
+    height: 310px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.cp_goods_list .list_item h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cp_goods_list .list_item p {
+    line-height: 2;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.item_btn {
+    display: block;
+    width: 145px;
+    height: 40px;
+    background-color: #ff6700;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    line-height: 40px
+}
+
+.item_btn a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.list_item .item_text_left {
+    float: left;
+    width: 600px;
+    height: 528px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.cp_goods_list .list_item .right {
+    float: right;
+    width: 600px;
+    height: 528px;
+}
